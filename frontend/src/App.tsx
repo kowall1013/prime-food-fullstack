@@ -8,7 +8,7 @@ function App() {
   }, []);
 
   async function loadData() {
-    const data = await fetch('http://localhost:9000/testAPI');
+    const data = await fetch('http://localhost:9000/test');
     const response = await data.json();
     console.log('response', response);
   }
